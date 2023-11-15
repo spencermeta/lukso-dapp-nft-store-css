@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import { getState, useState, setState } from '@/stores'
-import { ref, onMounted, onUnmounted, watch } from 'vue'
+import {getState, useState, setState} from '@/stores'
+import {ref, onMounted, onUnmounted, watch} from 'vue'
 
 import useWeb3Connection from '@/compositions/useWeb3Connection'
-import {  WINDOW_LUKSO } from '@/helpers/config'
-import { sliceAddress } from '@/utils/sliceAddress'
+import {WINDOW_LUKSO} from '@/helpers/config'
+import {sliceAddress} from '@/utils/sliceAddress'
 
-const { setupProvider, disconnect } = useWeb3Connection()
+const {setupProvider, disconnect} = useWeb3Connection()
 
 const hasExtension = ref(false)
 const provider = ref<any>()
@@ -70,13 +70,13 @@ onUnmounted(() => {
         class="button is-static is-small is-rounded address"
         data-testid="address"
       >
-        <div
-          :class="`logo ${
+    <div
+      :class="`logo ${
             'browser-extension'
           }`"
-        />
-        <span>{{ sliceAddress(getState('address')) }}</span>
-      </button>
+    />
+    <span>{{ sliceAddress(getState('address')) }}</span>
+    </button>
     </p>
     <p class="control">
       <button
@@ -92,18 +92,18 @@ onUnmounted(() => {
   </div>
 
   <div v-else class="is-right">
-      <button
-          class="has-text-weight-bold button "
-          data-testid="connect-extension"
-          :disabled="getState('isConnected')"
-          @click="connectExtension()"
-        >
-          Connect
-        </button>
+    <button
+      class="has-text-weight-bold button "
+      data-testid="connect-extension"
+      :disabled="getState('isConnected')"
+      @click="connectExtension()"
+    >
+      Connect
+    </button>
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .logo {
   height: 16px;
   width: 30px;
@@ -113,18 +113,15 @@ onUnmounted(() => {
   background-size: contain;
   position: relative;
   top: 3px;
-
-
-  &.browser-extension {
-    background-image: url('/lukso.png');
-  }
 }
 
-.address {
-  .logo {
-    top: 0;
-    left: -7px;
-    width: 20px;
-  }
+.logo.browser-extension {
+  background-image: url('/lukso.png');
+}
+
+.address .logo {
+  top: 0;
+  left: -7px;
+  width: 20px;
 }
 </style>

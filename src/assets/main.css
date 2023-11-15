@@ -1,1 +1,17 @@
-@import '../../node_modules/bulma/css/bulma.css';
+.App {
+  color: #282230;
+  font-family: Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+.App h6 {
+  font-size: 18px;
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+.App .text-gray {
+  color: #616161;
+}
+.App p {
+  margin: 0;
+}

@@ -74,26 +74,23 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .notification {
   word-break: break-all;
 }
-
 .ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 .no-ellipsis {
   overflow: visible;
   text-overflow: visible;
   white-space: normal;
 }
-
 .span-btn {
   cursor: pointer;
-  border: 1px solid rgb(231 198 198);
+  border: 1px solid #000;
   padding: 2px 4px;
   border-radius: 3px;
   margin: 3px 0;

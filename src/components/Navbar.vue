@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 import Connect from '@/components/Connect.vue'
 
 </script>
@@ -32,18 +33,16 @@ import Connect from '@/components/Connect.vue'
   </nav>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 nav {
-  box-shadow:
-    0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
-    0 0 0 1px rgb(10 10 10 / 2%);
+  box-shadow: 0 0.5em 1em -0.125em #000, 0 0 0 1px #000;
+}
 
-  a {
-    font-weight: bold;
+nav a {
+  font-weight: bold;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+nav a.router-link-exact-active {
+  color: #42b983;
 }
 </style>

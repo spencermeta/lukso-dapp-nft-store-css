@@ -158,7 +158,7 @@ const handleRefresh = (e: Event) => {
   </div>
 </template>
 
-<style scoped lang="scss">
+<style scoped>
 .notification {
   word-break: break-all;
 }

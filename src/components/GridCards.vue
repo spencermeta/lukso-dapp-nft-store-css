@@ -57,294 +57,226 @@ export default {
 </script>
 
 <template>
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="AnatoliSmorin" />
+        </template>
+        <a-card-meta title="Anatoli Smorin">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="BobsonDugnutt" />
+        </template>
+        <a-card-meta title="Bobson Dugnutt">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="DarrylArchideld" />
+        </template>
+        <a-card-meta title="Darryl Archideld">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
 
-  <CRow :xs="{ cols: 1, gutter: 4 }" :md="{ cols: 3 }">
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="AnatoliSmorin" />
-        <CCardBody>
-          <CCardTitle>Anatoli Smorin</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="BobsonDugnutt" />
-        <CCardBody>
-          <CCardTitle>Bobson Dugnutt</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="DarrylArchideld" />
-        <CCardBody>
-          <CCardTitle>Darryl Archideld</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="DeanWesrey" />
-        <CCardBody>
-          <CCardTitle>Dean Wesrey</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="DwigtRortugal" />
-        <CCardBody>
-          <CCardTitle>Dwigt Rortugal</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="GlenallenMixon" />
-        <CCardBody>
-          <CCardTitle>Glenallen Mixon</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="JeromyGride" />
-        <CCardBody>
-          <CCardTitle>Jeromy Gride</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="KarlDandleton" />
-        <CCardBody>
-          <CCardTitle>Karl Dandleton</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="KevinNogilny" />
-        <CCardBody>
-          <CCardTitle>Kevin Nogilny</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="MarioMcRlwain" />
-        <CCardBody>
-          <CCardTitle>Mario McRlwain</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="MikeSernandez" />
-        <CCardBody>
-          <CCardTitle>Mike Sernandez</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="MikeTruk" />
-        <CCardBody>
-          <CCardTitle>Mike Truk</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="OnsonSweemey" />
-        <CCardBody>
-          <CCardTitle>Onson Sweemey</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="RaulChamgerlain" />
-        <CCardBody>
-          <CCardTitle>Raul Chamgerlain</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="ReyMcSriff" />
-        <CCardBody>
-          <CCardTitle>Rey McSriff</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="ScottDourque" />
-        <CCardBody>
-          <CCardTitle>Scott Dourque</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="ShownFurcotte" />
-        <CCardBody>
-          <CCardTitle>Shown Furcotte</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="SleveMcDichael" />
-        <CCardBody>
-          <CCardTitle>Sleve McDichael</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="TimSandaele" />
-        <CCardBody>
-          <CCardTitle>Tim Sandaele</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="ToddBonzalez" />
-        <CCardBody>
-          <CCardTitle>Todd Bonzalez</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="TonySmehrik" />
-        <CCardBody>
-          <CCardTitle>Tony Smehrik</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-    <CCol xs>
-      <CCard>
-        <CCardImage orientation="top" :src="WillieDustice" />
-        <CCardBody>
-          <CCardTitle>Willie Dustice</CCardTitle>
-          <CCardText>
-          </CCardText>
-        </CCardBody>
-        <CCardFooter>
-          <small class="text-medium-emphasis"></small>
-        </CCardFooter>
-      </CCard>
-    </CCol>
-  </CRow>
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="DeanWesrey" />
+        </template>
+        <a-card-meta title="Dean Wesrey">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="DwigtRortugal" />
+        </template>
+        <a-card-meta title="Dwigt Rortugal">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="GlenallenMixon" />
+        </template>
+        <a-card-meta title="Glenallen Mixon">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
 
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="JeromyGride" />
+        </template>
+        <a-card-meta title="Jeromy Gride">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="KarlDandleton" />
+        </template>
+        <a-card-meta title="Karl Dandleton">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="KevinNogilny" />
+        </template>
+        <a-card-meta title="Kevin Nogilny">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
+
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="MarioMcRlwain" />
+        </template>
+        <a-card-meta title="Mario McRlwain">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="MikeSernandez" />
+        </template>
+        <a-card-meta title="Mike Sernandez">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="MikeTruk" />
+        </template>
+        <a-card-meta title="Mike Truk">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
+
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="OnsonSweemey" />
+        </template>
+        <a-card-meta title="Onson Sweemey">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="RaulChamgerlain" />
+        </template>
+        <a-card-meta title="Raul Chamgerlain">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="ReyMcSriff" />
+        </template>
+        <a-card-meta title="Rey McSriff">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
+
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="ScottDourque" />
+        </template>
+        <a-card-meta title="Scott Dourque">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="ShownFurcotte" />
+        </template>
+        <a-card-meta title="Shown Furcotte">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="SleveMcDichael" />
+        </template>
+        <a-card-meta title="Sleve McDichael">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
+
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="TimSandaele" />
+        </template>
+        <a-card-meta title="Tim Sandaele">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="ToddBonzalez" />
+        </template>
+        <a-card-meta title="Todd Bonzalez">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="TonySmehrik" />
+        </template>
+        <a-card-meta title="Tony Smehrik">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+  </a-row>
+
+  <a-row>
+    <a-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }">
+      <a-card hoverable style="width: 240px">
+        <template #cover>
+          <img alt="example" :src="WillieDustice" />
+        </template>
+        <a-card-meta title="Willie Dustice">
+        </a-card-meta>
+      </a-card>
+    </a-col>
+
+  </a-row>
 </template>

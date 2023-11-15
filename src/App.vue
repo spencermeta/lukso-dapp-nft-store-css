@@ -11,6 +11,6 @@ import Navbar from '@/components/Navbar.vue'
   </Suspense>
 </template>
 
-<style lang="scss">
-@import 'styles/style';
+<style >
+
 </style>
