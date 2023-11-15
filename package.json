@@ -1,8 +1,8 @@
 {
   "name": "lukso-dapp-nft-store",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
-  "homepage": "https://spencermeta.github.io/",
+  "homepage": "https://spencermeta.github.io/lukso-dapp-nft-store",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
