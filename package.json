@@ -1,6 +1,6 @@
 {
   "name": "lukso-dapp-nft-store",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "homepage": "https://spencermeta.github.io/lukso-dapp-nft-store",
   "scripts": {
