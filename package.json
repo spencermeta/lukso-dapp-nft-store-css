@@ -1,14 +1,14 @@
 {
   "name": "lukso-dapp-nft-store",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
-  "homepage": "https://spencermeta.github.io/lukso-dapp-nft-store",
+  "homepage": "https://spencermeta.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
+    "type-check": "vue-tsc --noEmit -p tsconfig.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "publish": "gh-pages -d dist"
